@@ -29,9 +29,9 @@ void sortArray(int inputArray[], int length){
 int main(){
   int length = 5;
   srand(time(NULL));
-  int array[5];
+  int array[length];
 
-  for(int i = 0;i<5;i++){
+  for(int i = 0;i<length;i++){
       array[i] = rand() % 101;
     }
     printArray(array, length);
